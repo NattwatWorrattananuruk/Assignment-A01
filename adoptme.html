@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>Adopt Me Form</title>
+<style>
+body{
+    font-family: Arial;
+    margin:40px;
+}
+form{
+    max-width:500px;
+}
+label{
+    display:block;
+    margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📋 แบบฟอร์มรับอุปการะสุนัข</h1>
+
+<form>
+
+<label>ชื่อ</label>
+<input type="text" required>
+
+<label>นามสกุล</label>
+<input type="text" required>
+
+<label>อีเมล</label>
+<input type="email" required>
+
+<label>เบอร์โทรศัพท์</label>
+<input type="tel" required>
+
+<label>ที่อยู่</label>
+<textarea required></textarea>
+
+<label>ลักษณะที่พักอาศัย</label>
+<select required>
+<option value="">-- เลือก --</option>
+<option>บ้านเดี่ยว</option>
+<option>ทาวน์เฮ้าส์</option>
+<option>คอนโด</option>
+<option>อพาร์ตเมนต์</option>
+</select>
+
+<label>ลักษณะการเลี้ยง</label>
+<input type="radio" name="care"> เลี้ยงในบ้าน
+<input type="radio" name="care"> เลี้ยงนอกบ้าน
+<input type="radio" name="care"> เลี้ยงทั้งในและนอกบ้าน
+
+<label>ปัจจุบันมีสัตว์เลี้ยงกี่ตัว</label>
+<input type="number" min="0">
+
+<br><br>
+
+<input type="checkbox" required>
+ฉันยอมรับข้อตกลงและเข้าใจว่าไม่รับรองการได้รับอุปการะสุนัข
+
+<br><br>
+
+<button type="submit">ส่งข้อมูล</button>
+
+</form>
+
+</body>
+</html>
